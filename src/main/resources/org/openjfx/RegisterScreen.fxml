@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Register">
+    <children>
+        <Pane layoutX="398.0" prefHeight="602.0" prefWidth="497.0">
+            <children>
+                <Rectangle arcHeight="120.0" arcWidth="120.0" fill="#98d0d3" height="565.0" layoutX="15.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="471.0" />
+                <Label layoutX="173.0" layoutY="22.0" text="Register">
+                    <font>
+                        <Font name="Avenir Book" size="45.0" />
+                    </font>
+                </Label>
+                <Button fx:id="Register" layoutX="165.0" layoutY="525.0" mnemonicParsing="false" onAction="#LogIn" prefHeight="39.0" prefWidth="182.0" text="Register" />
+                <Label fx:id="Error" alignment="CENTER" layoutX="26.0" layoutY="285.0" prefHeight="32.0" prefWidth="470.0" text="passwords don't match, try again " textFill="#a10d0d">
+                    <font>
+                        <Font name="Avenir Book" size="16.0" />
+                    </font>
+                </Label>
+            <TextField fx:id="Firstname" layoutX="183.0" layoutY="101.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="74.0" layoutY="102.0" prefHeight="27.0" prefWidth="110.0" text="First Name">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Lastname" layoutX="184.0" layoutY="139.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="75.0" layoutY="140.0" prefHeight="27.0" prefWidth="109.0" text="Last Name">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Username" layoutX="183.0" layoutY="178.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="74.0" layoutY="179.0" prefHeight="27.0" prefWidth="110.0" text="Username">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Password" layoutX="183.0" layoutY="216.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="75.0" layoutY="217.0" prefHeight="27.0" prefWidth="109.0" text="Password">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="ReenterPassword" layoutX="183.0" layoutY="256.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="73.0" layoutY="255.0" prefHeight="27.0" prefWidth="112.0" text="Re-Enter Pass">
+               <font>
+                  <Font name="Avenir Book" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Bdate" layoutX="183.0" layoutY="319.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="73.0" layoutY="321.0" prefHeight="27.0" prefWidth="109.0" text="Birthday">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="184.0" layoutY="357.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="73.0" layoutY="359.0" prefHeight="27.0" prefWidth="109.0" text="Email">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="ContactNum" layoutX="185.0" layoutY="395.0" prefHeight="30.0" prefWidth="248.0">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="74.0" layoutY="397.0" prefHeight="27.0" prefWidth="109.0" text="Conatact No.">
+               <font>
+                  <Font name="Avenir Book" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="437.0" prefHeight="27.0" prefWidth="109.0" text="Address">
+               <font>
+                  <Font name="Avenir Book" size="18.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="Address" layoutX="186.0" layoutY="437.0" prefHeight="52.0" prefWidth="247.0">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </TextArea>
+            <Label fx:id="Error1" alignment="CENTER" layoutX="30.0" layoutY="489.0" prefHeight="32.0" prefWidth="470.0" text="Please enter all fields" textFill="#a10d0d">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+        <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#0dafe0" height="145.0" layoutX="73.0" layoutY="210.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="280.0" />
+        <Label layoutX="138.0" layoutY="252.0" text="LOGO">
+            <font>
+                <Font name="Avenir Book" size="50.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
