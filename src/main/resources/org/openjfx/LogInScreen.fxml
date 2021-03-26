@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LogIn">
+   <children>
+      <Pane layoutX="398.0" prefHeight="602.0" prefWidth="497.0">
+         <children>
+            <Rectangle arcHeight="120.0" arcWidth="120.0" fill="#98d0d3" height="565.0" layoutX="15.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="471.0" />
+            <Label layoutX="164.0" layoutY="116.0" text="Log - In">
+               <font>
+                  <Font name="Avenir Book" size="50.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Username" layoutX="181.0" layoutY="235.0" prefHeight="36.0" prefWidth="260.0">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="55.0" layoutY="237.0" text="Username">
+               <font>
+                  <Font name="Avenir Book" size="22.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="Password" layoutX="182.0" layoutY="300.0" prefHeight="36.0" prefWidth="256.0">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="59.0" layoutY="301.0" text="Password">
+               <font>
+                  <Font name="Avenir Book" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="LogIn" layoutX="171.0" layoutY="385.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="182.0" text="Log-In" />
+            <Button fx:id="Register" layoutX="171.0" layoutY="443.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="182.0" text="Register" />
+            <Label fx:id="Error" alignment="CENTER" layoutX="12.0" layoutY="340.0" prefHeight="32.0" prefWidth="470.0" text="wrong password, try again " textFill="#a10d0d">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#0dafe0" height="145.0" layoutX="73.0" layoutY="210.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="280.0" />
+      <Label layoutX="138.0" layoutY="252.0" text="LOGO">
+         <font>
+            <Font name="Avenir Book" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
