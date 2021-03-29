@@ -39,7 +39,7 @@
                   <Font name="Avenir Book" size="22.0" />
                </font>
             </Label>
-            <Button fx:id="LogIn" layoutX="171.0" layoutY="385.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="182.0" text="Log-In" />
+            <Button fx:id="LogIn" layoutX="171.0" layoutY="385.0" mnemonicParsing="false" onAction="#Login" prefHeight="39.0" prefWidth="182.0" text="Log-In" />
             <Button fx:id="Register" layoutX="171.0" layoutY="443.0" mnemonicParsing="false" onAction="#Register" prefHeight="39.0" prefWidth="182.0" text="Register" />
             <Label fx:id="Error" alignment="CENTER" layoutX="12.0" layoutY="340.0" prefHeight="32.0" prefWidth="470.0" text="wrong password, try again " textFill="#a10d0d">
                <font>
