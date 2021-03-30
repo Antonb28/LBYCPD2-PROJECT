@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Admin">
+   <children>
+      <Button fx:id="PatientInfo" layoutX="93.0" layoutY="316.0" mnemonicParsing="false" onAction="#DisplayInfo" prefHeight="25.0" prefWidth="121.0" text="Display Info" />
+      <Button fx:id="BackButton" layoutX="233.0" layoutY="316.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="25.0" prefWidth="121.0" text="Go Back" />
+      <Text layoutX="70.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" wrappingWidth="186.13671875">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Text>
+      <TableView layoutX="63.0" layoutY="87.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TableView layoutX="294.0" layoutY="87.0" prefHeight="200.0" prefWidth="200.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>
