@@ -10,7 +10,16 @@ public class LogIn {
         App.setRoot("RegisterScreen");
     }
 
-    public void Login(ActionEvent actionEvent) throws IOException {
+    public void DoctorLogin(ActionEvent actionEvent) throws IOException {
         App.setRoot("DoctorsMenu");
     }
+
+    public void AdminLogin(ActionEvent actionEvent) throws IOException {
+        App.setRoot("AdminMenu");
+    }
+
+    public void UserLogin(ActionEvent actionEvent) throws IOException {
+        App.setRoot("UserMenu");
+    }
+
 }

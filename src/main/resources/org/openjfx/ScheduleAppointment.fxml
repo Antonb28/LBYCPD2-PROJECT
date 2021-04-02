@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Appointment">
+    <children>
+        <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#98d0d3" height="572.0" layoutX="14.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="241.0" />
+        <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#f7f7f7" height="119.0" layoutX="22.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="223.0" />
+        <Label layoutX="61.0" layoutY="50.0" text="LOGO">
+            <font>
+                <Font name="Avenir Book" size="50.0" />
+            </font>
+        </Label>
+        <Button layoutX="49.0" layoutY="193.0" mnemonicParsing="false" opacity="0.84" prefHeight="44.0" prefWidth="156.0" text="Appointments">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="51.0" layoutY="288.0" mnemonicParsing="false" opacity="0.84" prefHeight="40.0" prefWidth="156.0" text="User Details">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="49.0" layoutY="382.0" mnemonicParsing="false" opacity="0.84" prefHeight="42.0" prefWidth="156.0" text="Help Menu">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="48.0" layoutY="474.0" mnemonicParsing="false" onAction="#Back" opacity="0.84" prefHeight="40.0" prefWidth="156.0" text="Back">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
