@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="firebase-client-android-2.5.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libraries/firebase-client-android-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/firebase-client-android-2.5.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
