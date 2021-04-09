@@ -51,6 +51,6 @@
          </font>
       </Label>
       <Button fx:id="LogIn2" layoutX="89.0" layoutY="382.0" mnemonicParsing="false" onAction="#DoctorLogin" prefHeight="39.0" prefWidth="74.0" text="Doctor" />
-      <Button fx:id="LogIn1" layoutX="219.0" layoutY="382.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="99.0" text="Admin" />
+      <Button fx:id="LogIn1" layoutX="219.0" layoutY="382.0" mnemonicParsing="false" onAction="#AdminLogin" prefHeight="39.0" prefWidth="99.0" text="Admin" />
    </children>
 </AnchorPane>
