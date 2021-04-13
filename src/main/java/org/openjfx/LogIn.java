@@ -15,11 +15,14 @@ public class LogIn {
     }
 
     public void AdminLogin(ActionEvent actionEvent) throws IOException {
-        App.setRoot("AdminMenu");
+        App.setRoot("Admin");
     }
 
     public void UserLogin(ActionEvent actionEvent) throws IOException {
         App.setRoot("UserMenu");
     }
 
+    public void Back(ActionEvent actionEvent) throws IOException {
+        App.setRoot("UserMenu");
+    }
 }

@@ -9,4 +9,8 @@ public class DoctorsMenu {
     public void Appointment(ActionEvent actionEvent) throws IOException {
         App.setRoot("Appointment");
     }
+
+    public void Back(ActionEvent actionEvent) throws IOException {
+        App.setRoot("UserMenu");
+    }
 }

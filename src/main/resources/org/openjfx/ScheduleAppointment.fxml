@@ -18,7 +18,7 @@
                 <Font name="Avenir Book" size="50.0" />
             </font>
         </Label>
-        <Button layoutX="49.0" layoutY="193.0" mnemonicParsing="false" opacity="0.84" prefHeight="44.0" prefWidth="156.0" text="Appointments">
+        <Button layoutX="49.0" layoutY="193.0" mnemonicParsing="false" opacity="0.84" prefHeight="44.0" prefWidth="156.0" text="Appointments" onAction="#GoToAppointments">
             <font>
                 <Font size="15.0" />
             </font>
@@ -64,6 +64,6 @@
          </font>
       </Label>
       <TextArea layoutX="529.0" layoutY="342.0" prefHeight="143.0" prefWidth="317.0" />
-      <Button layoutX="536.0" layoutY="502.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="303.0" text="Schedule Appointment" />
+      <Button layoutX="536.0" layoutY="502.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="303.0" text="Schedule Appointment"/>
     </children>
 </AnchorPane>

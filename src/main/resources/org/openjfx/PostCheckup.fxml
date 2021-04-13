@@ -2,8 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
@@ -33,45 +32,50 @@
             <Font size="15.0" />
          </font>
       </Button>
-      <Button layoutX="48.0" layoutY="474.0" mnemonicParsing="false" onAction="#Back" opacity="0.84" prefHeight="40.0" prefWidth="156.0" text="Back" >
+      <Button layoutX="48.0" layoutY="474.0" mnemonicParsing="false" onAction="#Back" opacity="0.84" prefHeight="40.0" prefWidth="156.0" text="Back">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
       <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#98d0d3" height="572.0" layoutX="273.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="612.0" />
-      <ListView fx:id="LV1" layoutX="284.0" layoutY="87.0" prefHeight="226.0" prefWidth="360.0" />
-      <Label layoutX="291.0" layoutY="34.0" text="Upcoming Appointments" textFill="WHITE">
+      <Label layoutX="291.0" layoutY="34.0" text="Post-checkup  Questionnaire" textFill="WHITE">
          <font>
             <Font name="Avenir Book" size="22.0" />
          </font>
       </Label>
-      <Label layoutX="284.0" layoutY="320.0" text="Previous Appointments" textFill="WHITE">
-         <font>
-            <Font name="Avenir Book" size="22.0" />
-         </font>
-      </Label>
-      <ListView fx:id="LV2" layoutX="284.0" layoutY="353.0" prefHeight="200.0" prefWidth="360.0" />
-      <Button layoutX="666.0" layoutY="96.0" mnemonicParsing="false" opacity="0.84" prefHeight="40.0" prefWidth="207.0" text="Pre-checkup questionnaire" onAction="#AnswerPreCheckup">
+      <Button layoutX="367.0" layoutY="494.0" mnemonicParsing="false" opacity="0.84" prefHeight="40.0" prefWidth="207.0" text="Submit Answers">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
       <Line endX="401.637939453125" endY="7.62939453125E-6" layoutX="453.0" layoutY="71.0" startX="-160.46481323242188" startY="7.62939453125E-6" stroke="WHITE" strokeWidth="3.0" />
-      <Button disable="true" layoutX="666.0" layoutY="173.0" mnemonicParsing="false" opacity="0.84" prefHeight="40.0" prefWidth="207.0" text="Go To Appointment">
-         <font>
-            <Font size="15.0" />
-         </font>
-      </Button>
-      <Button disable="true" layoutX="666.0" layoutY="248.0" mnemonicParsing="false" opacity="0.84" prefHeight="40.0" prefWidth="207.0" text="Follow up questionnaire" onAction="#AnswerPostCheckUp">
-         <font>
-            <Font size="15.0" />
-         </font>
-      </Button>
-      <TextArea layoutX="670.0" layoutY="353.0" prefHeight="200.0" prefWidth="200.0" />
-      <Label layoutX="670.0" layoutY="320.0" prefHeight="32.0" prefWidth="200.0" text="Prescription" textFill="WHITE">
+      <Label layoutX="301.0" layoutY="87.0" text="1." textFill="WHITE">
          <font>
             <Font name="Avenir Book" size="22.0" />
          </font>
       </Label>
+      <Label layoutX="301.0" layoutY="183.0" prefHeight="32.0" prefWidth="17.0" text="2." textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="282.0" prefHeight="32.0" prefWidth="17.0" text="3." textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="382.0" prefHeight="32.0" prefWidth="17.0" text="4." textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="22.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="301.0" layoutY="229.0" mnemonicParsing="false" text="Yes" />
+      <RadioButton layoutX="301.0" layoutY="320.0" mnemonicParsing="false" text="Yes" />
+      <RadioButton layoutX="301.0" layoutY="128.0" mnemonicParsing="false" text="Yes" />
+      <RadioButton layoutX="301.0" layoutY="416.0" mnemonicParsing="false" text="Yes" />
+      <RadioButton layoutX="414.0" layoutY="416.0" mnemonicParsing="false" text="No" />
+      <RadioButton layoutX="414.0" layoutY="320.0" mnemonicParsing="false" text="No" />
+      <RadioButton layoutX="414.0" layoutY="229.0" mnemonicParsing="false" text="No" />
+      <RadioButton layoutX="414.0" layoutY="128.0" mnemonicParsing="false" text="No" />
    </children>
 </AnchorPane>
